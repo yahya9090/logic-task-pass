@@ -7,7 +7,7 @@ print(s.replace('q', ''))
 #if the q was capital it sholde be capital in the replace
 print("__________________________________________________________________________________________________________________________________________________________________")
 
-Q2
+#Q2
 
 num = int(input("Enter a number: "))
 
