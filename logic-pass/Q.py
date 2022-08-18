@@ -1,9 +1,10 @@
 #Q1
 print("__________________________________________________________________________________________________________________________________________________________________")
 
-s = 'qwerty'
+o = str(input("enter anything:-"))
+m=str(input("enter the letter:-"))
 
-print(s.replace('q', ''))
+print(o.replace(m, ''))
 #if the q was capital it sholde be capital in the replace
 print("__________________________________________________________________________________________________________________________________________________________________")
 
@@ -14,12 +15,9 @@ num = int(input("Enter a number: "))
 flag = False
 
 if num > 1:
-    # check for factors
     for i in range(2, num):
         if (num % i) == 0:
-            # if factor is found, set flag to True
             flag = True
-            # break out of loop
             break
 if flag:
     print(num, "is not a prime number")
@@ -30,7 +28,7 @@ else:
 
 #Q3
 
-string = "qwerty";
+string = str(input("enter anything:-"));
     
 print("Duplicate characters in a given string: ");  
 for i in range(0, len(string)):  
@@ -42,3 +40,5 @@ for i in range(0, len(string)):
     
     if(count > 1 and string[i] != '0'):  
         print(string[i]," - ",count);
+
+        #made by yahya
